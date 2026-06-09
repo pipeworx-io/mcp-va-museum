@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/va-museum",
+  "title": "Va Museum",
+  "description": "Victoria and Albert Museum (V&A) Collections MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/va-museum",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-va-museum",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/va-museum/mcp"
+    }
+  ]
+}
