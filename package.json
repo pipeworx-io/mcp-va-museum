@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-va-museum",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Victoria and Albert Museum (V&A) Collections MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-c1eaa7093f9b1873c9360de53c0f3134938ac5c683fda6f05fbd54f2ddeb6227",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-975f717cbd5dde557cf68a195c1b0b8a40c7580e12fa14945502aca506560897",
+    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
   }
 }
