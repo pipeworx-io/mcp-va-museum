@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-va-museum",
-  "version": "0.1.2",
-  "description": "Victoria and Albert Museum (V&A) Collections MCP.",
+  "version": "0.2.0",
+  "description": "Victoria and Albert Museum (V&A) Collections MCP. Keyless. Wraps the V&A Collections API v2.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-va-museum": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "va-museum"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-va-museum.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/va-museum",
   "pipeworx": {
-    "sourceHash": "v1-975f717cbd5dde557cf68a195c1b0b8a40c7580e12fa14945502aca506560897",
-    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
+    "mode": "gateway",
+    "slug": "va-museum",
+    "gatewaySlug": "va-museum",
+    "sourceHash": "v1-87a2a6f8a3eaeafd7279756d86bd58ad566dfb5ead4df9c13ba9d7c7d620ae3a",
+    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
   }
 }
