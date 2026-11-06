@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-va-museum",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Victoria and Albert Museum (V&A) Collections MCP. Keyless. Wraps the V&A Collections API v2.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "va-museum",
     "gatewaySlug": "va-museum",
-    "sourceHash": "v1-87a2a6f8a3eaeafd7279756d86bd58ad566dfb5ead4df9c13ba9d7c7d620ae3a",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-892ec3330766d5b779a80623a32ddcbc7c1ffd054caf0f36e1c769f2468ed217",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
